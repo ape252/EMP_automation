@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.dashboard_framework.scripts.Test_Dashbord_page">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="dashboard"/>
+        </methods>
+      </class> <!-- com.dashboard_framework.scripts.Test_Dashbord_page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

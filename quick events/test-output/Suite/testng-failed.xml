@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.add_menu_item.scripts.Test_Add_Menu_Items">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.add_menu_item.scripts.Test_Add_Menu_Items -->
+      <class name="com.dashboard_framework.scripts.Test_Dashbord_page">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="new_Orders_fulfilled_Orders_cancel_Orders_upcoming_Orders"/>
+        </methods>
+      </class> <!-- com.dashboard_framework.scripts.Test_Dashbord_page -->
+      <class name="com.managecatalog.scripts.Test_ManageCatalog_Page">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.managecatalog.scripts.Test_ManageCatalog_Page -->
+      <class name="com.login_framework.scripts.Test_LoginPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="enter_passowrd"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.login_framework.scripts.Test_LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
